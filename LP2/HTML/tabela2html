@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tabelas</title>
+</head>
+<body>
+	<H2>Modelo de tabela 2</H2>
+	<table>
+		<TR>
+			<TH>Código</TH>
+			<th>Nome</th>
+			<th>Endereço</th>
+			<th>E-mail</th>
+			<th>Contato</th>
+		</TR>
+	</table>
+	
+	
+</body>
+</html>

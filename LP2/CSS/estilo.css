@@ -1,0 +1,73 @@
+#header{
+			background-color: #0000CD;
+			color: #F0FFFF;
+			height: 100px;
+			font-size: 40px;
+			font-family: verdana;
+			padding-left: 20px;
+			padding-top: 20px;
+		}
+		body{
+			margin: 0px;
+
+		}
+		#menu{
+			background-color: #F0FFFF;
+			height: 25px;
+			text-align: right;
+			padding-right: 5px;
+			padding-top: 2px;
+
+		}
+		a{
+			text-decoration: none;	
+			font-family: verdana;
+			font-size: 12px;
+			font-weight: bold;			
+			padding: 2px;
+		}
+		#principal{
+			background-color: #F5F5F5;
+			width: 80%;
+			height: 550px;			
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#login{
+			width: 100vw;
+			height: 100vh;
+			background-image: url(https://i0.wp.com/multarte.com.br/wp-content/uploads/2019/02/galaxias3.jpg?fit=1200%2C675&ssl=1);
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			}
+		#quadrado{
+			background-color: #FFFFFF; 
+			width: 300px;
+			height: 300px;
+			background: #fff;
+			padding-top: 30px;
+			padding-right:40px;
+			border-radius: 15px;
+			box-shadow: 5px 5px 5px 5px purple;
+		}
+		
+		#rodape{
+			background-color: #F0FFFF;
+			height: 25px;
+			text-align: center;
+			padding-right: 5px;
+			padding-top: 2px;
+			font-family: arial;
+			font-size: 12px;
+		}
+		
+		
+		input, select, textarea, button{
+			background-color: #FFFAF0;
+		}
+		fieldset, hr{
+			border-color: #191970;
+		}
+		

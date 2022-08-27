@@ -1,0 +1,58 @@
+<html lang="pt-br">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <h1>Formulário</h1>
+         <hr>
+         <form name='formcad' method='post' action="">
+         <fieldset>
+         <legend>Dados pessoais</legend>
+         
+             
+             Nome <input type='text' name='' placeholder="Digite seu nome" autofocus="" required=""><p>
+             Endereço <input type='text' name='' required=""><p>
+             Cidade <input type='text' name=''><p>
+             Estado
+             <select name="estado">
+                 <option value='São Paulo'>São Paulo</option>
+                 <option value='Rio de Janeiro'>Rio de Janeiro</option>
+                 <option value='Amazonas'>Amazonas</option>
+                 <option value='Pará'>Pará</option>
+                 <option value='Santa Catarina'>Santa Catarina</option>
+                 <option value='Tocantins'>Tocantins</option>
+                 <option value='Rondônia'>Rondônia</option>
+             </select><p>
+             E-mail <input type='email' name='' required="">
+             Contato <input type='number' name='' required="" placeholder="99 999999999"><p>
+            Dê uma nota para o Form<input type="range" name="" min="1" max="100"    value="0">
+        </fieldset>
+        <fieldset>
+        <legend>Dados profissionais</legend>
+         Natureza do Cargo<p>
+             <input type='radio' name='Gerência' value='gerencia'> Gerência
+             <input type='radio' name='Financeiro' value=<financeiro> Financeiro
+             <input type='radio' name='recepção' value='recepção'> Recepção
+             <input type='radio' name='Admin' value='admin'> Administrativo
+             <input type='radio' name='jurídico' value='jurid'> Jurídico
+             <p>
+        
+         Área de interesse<p>
+             <input type='checkbox' name='Comp' value='Comp'> Computação
+             <input type='checkbox' name='Bio' value='Bio'> Biologia
+             <input type='checkbox' name='amb' value='amb'> Meio Ambiente
+             <input type='checkbox' name='Eng' value='Eng'> Engenharia
+             <input type='checkbox' name='Hist' value='Hist'> História
+             <p>
+        Mini-Curriculo <textarea id="msg"></textarea><p>
+        
+        </fieldset>
+        <p>
+        <button type='submit'>Enviar</button> 
+        <button type='reset'>Limpar</button>
+     </form>
+
+    </body>
+</html>
